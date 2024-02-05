@@ -1,0 +1,89 @@
+﻿html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    overflow-y: scroll;
+    min-height: 100vh; /* Ensure body takes at least the full height of the viewport */
+    position: relative; /* Set relative positioning for the body */
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.main-picture {
+    max-width: 100%;
+    height: auto;
+}
+
+.nav-link-color {
+    color: #EEEDEB;
+}
+
+.nav-link-color:hover {
+    color: #E0CCBE;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem; /* Footer height */
+}
+
+.footer-link{
+    color: white;
+    text-decoration: none;
+}
+
+    .footer-link:hover {
+        color: #E0CCBE;
+    }
+
+.bg-dark-green {
+    background-color:#3C3633;
+}
+
+.bg-green {
+    background-color: #747264;
+}
+
+.bg-pitch {
+    background-color: #E0CCBE;
+}
+
+.bg-grey {
+    background-color: #EEEDEB;
+}
+
+.dark-green {
+    color: #3C3633;
+}
+
+.green {
+    color: #747264
+}
+
+.pitch {
+    color: #E0CCBE
+}
+
+.grey {
+    color: #EEEDEB
+}
