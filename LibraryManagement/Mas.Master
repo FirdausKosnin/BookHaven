@@ -96,7 +96,7 @@
                 </asp:ContentPlaceHolder>
             </div>
 
-            <footer id="footer" class="bg-dark-green grey">
+            <footer id="footer" class="bg-dark-green grey mt-3">
                 <div id="footer-upper" class="container-fluid">
                         &copy All right reserved.
                         <a class="footer-link" href="#" target="_blank">

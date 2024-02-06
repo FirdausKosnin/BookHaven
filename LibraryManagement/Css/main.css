@@ -22,12 +22,7 @@ footer {
     width: 100%;
     padding: 10px;
     text-align: center;
-    margin-top: 40px;
-}
-
-.main-picture {
-    max-width: 100%;
-    height: auto;
+    margin-top: 5px;
 }
 
 .nav-link-color {
