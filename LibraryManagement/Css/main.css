@@ -47,12 +47,21 @@ footer {
     text-decoration: none;
 }
 
+.center-grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
     .footer-link:hover {
         color: #E0CCBE;
     }
 
+/*Form*/
+
+/*Colour*/
 .bg-dark-green {
-    background-color:#3C3633;
+    background-color: #3C3633;
 }
 
 .bg-green {

@@ -85,6 +85,7 @@
     <Content Include="bootstrap\css\bootstrap.rtl.min.css" />
     <Content Include="Css\main.css" />
     <Content Include="Css\index.css" />
+    <Content Include="Css\form.css" />
     <Content Include="datatables\jquery.dataTables.min.css" />
     <Content Include="datatables\jquery.dataTables.min.js" />
     <Content Include="Icons\Book_Icon.svg" />
@@ -95,6 +96,7 @@
     <Content Include="Icons\Leaf.svg" />
     <Content Include="Icons\New_Icon.svg" />
     <Content Include="Icons\Register.svg" />
+    <Content Include="Icons\User.svg" />
     <Content Include="Icons\Wait_for_approvel.svg" />
     <Content Include="Images\Library.jpg" />
     <Content Include="JQuerry\jquery-3.7.1.js" />
@@ -2180,6 +2182,9 @@
     <Content Include="fontawesome\svgs\solid\z.svg" />
     <Content Include="Web.config" />
     <Content Include="index.aspx" />
+    <Content Include="userlogin.aspx" />
+    <Content Include="signup.aspx" />
+    <Content Include="adminlogin.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Mas.Master.cs">
@@ -2196,6 +2201,27 @@
     </Compile>
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="userlogin.aspx.cs">
+      <DependentUpon>userlogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userlogin.aspx.designer.cs">
+      <DependentUpon>userlogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="signup.aspx.cs">
+      <DependentUpon>signup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="signup.aspx.designer.cs">
+      <DependentUpon>signup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminlogin.aspx.cs">
+      <DependentUpon>adminlogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminlogin.aspx.designer.cs">
+      <DependentUpon>adminlogin.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
