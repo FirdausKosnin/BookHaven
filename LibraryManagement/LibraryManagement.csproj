@@ -2192,6 +2192,7 @@
     <Content Include="Authermanagement.aspx" />
     <Content Include="Publishermanagement.aspx" />
     <Content Include="BookIssue.aspx" />
+    <Content Include="membermanagement.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Mas.Master.cs">
@@ -2257,6 +2258,13 @@
     </Compile>
     <Compile Include="BookIssue.aspx.designer.cs">
       <DependentUpon>BookIssue.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="membermanagement.aspx.cs">
+      <DependentUpon>membermanagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="membermanagement.aspx.designer.cs">
+      <DependentUpon>membermanagement.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

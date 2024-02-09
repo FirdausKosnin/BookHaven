@@ -112,7 +112,7 @@
                                 <asp:LinkButton href="BookIssue.aspx" class="footer-link" ID="LinkButton3" runat="server">
                                     Book Issuing
                                 </asp:LinkButton>
-                                <asp:LinkButton class="footer-link" ID="LinkButton4" runat="server">
+                                <asp:LinkButton href="membermanagement.aspx" class="footer-link" ID="LinkButton4" runat="server">
                                     Member Management
                                 </asp:LinkButton>
                             </p>
