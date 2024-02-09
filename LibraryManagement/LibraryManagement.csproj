@@ -88,6 +88,8 @@
     <Content Include="Css\form.css" />
     <Content Include="datatables\jquery.dataTables.min.css" />
     <Content Include="datatables\jquery.dataTables.min.js" />
+    <Content Include="Icons\Author.svg" />
+    <Content Include="Icons\Book_Borrow.svg" />
     <Content Include="Icons\Book_Icon.svg" />
     <Content Include="Icons\Book_Logo.svg" />
     <Content Include="Icons\Book_Logo_pitch.svg" />
@@ -95,6 +97,7 @@
     <Content Include="Icons\Id.svg" />
     <Content Include="Icons\Leaf.svg" />
     <Content Include="Icons\New_Icon.svg" />
+    <Content Include="Icons\Publisher.svg" />
     <Content Include="Icons\Register.svg" />
     <Content Include="Icons\User.svg" />
     <Content Include="Icons\Wait_for_approvel.svg" />
@@ -2185,6 +2188,9 @@
     <Content Include="userlogin.aspx" />
     <Content Include="signup.aspx" />
     <Content Include="adminlogin.aspx" />
+    <Content Include="userprofile.aspx" />
+    <Content Include="Authermanagement.aspx" />
+    <Content Include="Publishermanagement.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Mas.Master.cs">
@@ -2222,6 +2228,27 @@
     </Compile>
     <Compile Include="adminlogin.aspx.designer.cs">
       <DependentUpon>adminlogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="userprofile.aspx.cs">
+      <DependentUpon>userprofile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userprofile.aspx.designer.cs">
+      <DependentUpon>userprofile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Authermanagement.aspx.cs">
+      <DependentUpon>Authermanagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Authermanagement.aspx.designer.cs">
+      <DependentUpon>Authermanagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Publishermanagement.aspx.cs">
+      <DependentUpon>Publishermanagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Publishermanagement.aspx.designer.cs">
+      <DependentUpon>Publishermanagement.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

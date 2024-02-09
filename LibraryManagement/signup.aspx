@@ -97,7 +97,7 @@
 
                             <div class="d-grid gap-2">
                                 <a href="singup.aspx" class="btn btn-info d-block mt-4">
-                                    Sign Up
+                                    Update
                                 </a>
                             </div>
                         </div>
