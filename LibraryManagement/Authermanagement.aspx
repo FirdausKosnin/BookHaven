@@ -59,15 +59,15 @@
                     </h4>
                 </div>
                 <hr />
-            </div>
+                <div class="row">
+                    <div class="col my-2">
+                        <asp:GridView class="table" ID="author" runat="server">
 
-            <div class="row">
-                <div class="col-md-12 my-2">
-                    <asp:GridView class="table" ID="author" runat="server">
-
-                    </asp:GridView>
+                        </asp:GridView>
+                    </div>
                 </div>
             </div>
+
         </div>
     </div>
 </asp:Content>
