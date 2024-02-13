@@ -4,7 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="center-grid">
-        <div class="container">
+        <div class="container my-3">
             <div class="row">
                 <div class="col-md-10 mx-auto">
                     <div class="card my-4">
@@ -86,7 +86,7 @@
 
                             <div class="row">
                                 <div class="col-6">
-                                    <label class="mt-3 mb-1">User ID</label>
+                                    <label class="mt-3 mb-1">Member ID</label>
                                     <asp:TextBox CssClass="form-control" placeholder="User ID" ID="TextBox8" runat="server"></asp:TextBox>
                                 </div>
                                 <div class="col-6">
@@ -96,9 +96,9 @@
                             </div>
 
                             <div class="d-grid gap-2">
-                                <a href="singup.aspx" class="btn btn-info d-block mt-4">
-                                    Update
-                                </a>
+                                <asp:LinkButton type="button" class="btn btn-info d-block mt-4" ID="SingUp" runat="server" OnClick="SingUp_Click">
+                                    Sign Up
+                                </asp:LinkButton>
                             </div>
                         </div>
                     </div>

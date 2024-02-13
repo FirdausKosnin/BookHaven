@@ -86,7 +86,7 @@
                 </div>
 
             </nav>
-            <div id="content-wrap">
+            <div id="content-wrap my-3">
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 </asp:ContentPlaceHolder>
             </div>

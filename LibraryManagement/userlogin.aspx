@@ -39,12 +39,11 @@
 
                                             <div class="d-grid gap-2">
                                         
-                                                <asp:Button ID="Button1" class="btn btn-success d-block my-2" text="Login" runat="server" />
+                                                <asp:Button ID="Button1" class="btn btn-success d-block my-2" text="Login" runat="server" OnClick="Button1_Click" />
                                                 <a href="singup.aspx" class="btn btn-info d-block my-2">
                                                     Sign Up
                                                 </a>
                                             </div>
-
                                         </div>
                                     </center>
                                 </div>
