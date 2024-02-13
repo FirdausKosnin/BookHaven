@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -11,7 +12,54 @@ namespace LibraryManagement
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            try
+            {
+                if (Session["role"] == null || Session["role"] == "")
+                {
+                    LinkButton5.Visible = true; // User Login
+                    LinkButton7.Visible = true; // Sign Up
 
+                    LinkButton9.Visible = false; // Log Out
+                    LinkButton8.Visible = false; // User Name
+
+                    LinkButton1.Visible = false; // Admin Author Management
+                    LinkButton2.Visible = false; // Admin publish Management
+                    LinkButton3.Visible = false; // Admin Book Issuing
+                    LinkButton4.Visible = false; // Admin Member Management
+                }
+                else if (Session["role"].Equals("User"))
+                {
+                    LinkButton5.Visible = false; // User Login
+                    LinkButton7.Visible = false; // Sign Up
+
+                    LinkButton9.Visible = true; // Log Out
+                    LinkButton8.Visible = true; // User Name
+                    LinkButton9.Text = Session["username"].ToString();
+
+                    LinkButton1.Visible = false; // Admin Author Management
+                    LinkButton2.Visible = false; // Admin publish Management
+                    LinkButton3.Visible = false; // Admin Book Issuing
+                    LinkButton4.Visible = false; // Admin Member Management
+                }
+                else if (Session["role"].Equals("Admin"))
+                {
+                    LinkButton5.Visible = false; // User Login
+                    LinkButton7.Visible = false; // Sign Up
+
+                    LinkButton9.Visible = true; // Log Out
+                    LinkButton8.Visible = true; // User Name
+                    LinkButton9.Text = Session["username"].ToString();
+
+                    LinkButton1.Visible = true; // Admin Author Management
+                    LinkButton2.Visible = true; // Admin publish Management
+                    LinkButton3.Visible = true; // Admin Book Issuing
+                    LinkButton4.Visible = true; // Admin Member Management
+                }
+            }
+            catch (Exception E)
+            {
+                Response.Write("<script>alert'" + E.Message + ");</script>");
+            }
         }
 
         protected void LinkButton6_Click(object sender, EventArgs e)
@@ -51,7 +99,12 @@ namespace LibraryManagement
 
         protected void LinkButton8_Click(object sender, EventArgs e)
         {
-            Response.Redirect("signup.aspx");
+            Session["username"] = "";
+            Session["fullname"] = "";
+            Session["role"] = "";
+            Session["status"] = "";
+
+            Response.Redirect("index.aspx");
         }
 
         protected void LinkButton9_Click(object sender, EventArgs e)

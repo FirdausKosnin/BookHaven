@@ -38,13 +38,10 @@
                                             <asp:TextBox CssClass="form-control my-3" TextMode="Password" placeholder="Password" ID="TextBox2" runat="server"></asp:TextBox>
 
                                             <div class="d-grid gap-2">
-                                        
-                                                <asp:Button ID="Button1" class="btn btn-success d-block my-1" text="Login" runat="server" />
-                                                <a href="singup.aspx" class="btn btn-info d-block my-1">
-                                                    Sign Up
-                                                </a>
+                                                <asp:LinkButton type="button" class="btn btn-info d-block mt-4" ID="Login" runat="server" OnClick="Login_Click">
+                                                      Log In
+                                                </asp:LinkButton>
                                             </div>
-
                                         </div>
                                     </center>
                                 </div>

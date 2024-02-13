@@ -74,7 +74,7 @@
         </div>
     </section>
 
-    <section class="mb-5">
+    <section class="">
         <div class="">
 
         </div>
