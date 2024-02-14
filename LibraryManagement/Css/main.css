@@ -18,7 +18,7 @@ body::-webkit-scrollbar {
 
 footer {
     position: absolute;
-    bottom: inherit;
+    bottom: 0;
     width: 100%;
     padding: 10px;
     text-align: center;

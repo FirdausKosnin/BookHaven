@@ -50,6 +50,7 @@ namespace LibraryManagement
                     LinkButton8.Visible = true; // User Name
                     LinkButton9.Text = Session["username"].ToString();
 
+                    LinkButton6.Visible = false; // Admin login
                     LinkButton1.Visible = true; // Admin Author Management
                     LinkButton2.Visible = true; // Admin publish Management
                     LinkButton3.Visible = true; // Admin Book Issuing
