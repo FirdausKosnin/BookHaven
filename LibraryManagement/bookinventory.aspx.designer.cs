@@ -150,6 +150,15 @@ namespace LibraryManagement
         protected global::System.Web.UI.WebControls.TextBox IssuedBook;
 
         /// <summary>
+        /// BookDetail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox BookDetail;
+
+        /// <summary>
         /// Add control.
         /// </summary>
         /// <remarks>
@@ -175,6 +184,15 @@ namespace LibraryManagement
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Delete;
+
+        /// <summary>
+        /// BookDataSource control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource BookDataSource;
 
         /// <summary>
         /// BookInventory control.

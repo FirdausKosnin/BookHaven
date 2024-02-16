@@ -24,6 +24,7 @@ namespace LibraryManagement
 
                     LinkButton1.Visible = false; // Admin Author Management
                     LinkButton2.Visible = false; // Admin publish Management
+                    LinkButton10.Visible = false; // Admin Book Inventory
                     LinkButton3.Visible = false; // Admin Book Issuing
                     LinkButton4.Visible = false; // Admin Member Management
                 }
@@ -38,6 +39,7 @@ namespace LibraryManagement
 
                     LinkButton1.Visible = false; // Admin Author Management
                     LinkButton2.Visible = false; // Admin publish Management
+                    LinkButton10.Visible = false; // Admin Book Inventory
                     LinkButton3.Visible = false; // Admin Book Issuing
                     LinkButton4.Visible = false; // Admin Member Management
                 }
@@ -53,6 +55,7 @@ namespace LibraryManagement
                     LinkButton6.Visible = false; // Admin login
                     LinkButton1.Visible = true; // Admin Author Management
                     LinkButton2.Visible = true; // Admin publish Management
+                    LinkButton10.Visible = true; // Admin Book Inventory
                     LinkButton3.Visible = true; // Admin Book Issuing
                     LinkButton4.Visible = true; // Admin Member Management
                 }
@@ -111,6 +114,11 @@ namespace LibraryManagement
         protected void LinkButton9_Click(object sender, EventArgs e)
         {
             Response.Redirect("userprofile.aspx");
+        }
+
+        protected void LinkButton10_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("bookinventory.aspx");
         }
     }
 }

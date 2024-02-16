@@ -96,19 +96,22 @@
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12 text-center">
                             <p>
-                                <asp:LinkButton class="footer-link" ID="LinkButton6" runat="server" OnClick="LinkButton6_Click">
+                                <asp:LinkButton class="footer-link mx-2" ID="LinkButton6" runat="server" OnClick="LinkButton6_Click">
                                     Admin Login
                                 </asp:LinkButton>
-                                <asp:LinkButton class="footer-link" ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">
+                                <asp:LinkButton class="footer-link mx-2" ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">
                                     Author Management
                                 </asp:LinkButton>
-                                <asp:LinkButton class="footer-link" ID="LinkButton2" runat="server" OnClick="LinkButton2_Click">
+                                <asp:LinkButton class="footer-link mx-2" ID="LinkButton2" runat="server" OnClick="LinkButton2_Click">
                                     Publish Management
                                 </asp:LinkButton>
-                                <asp:LinkButton class="footer-link" ID="LinkButton3" runat="server" OnClick="LinkButton3_Click">
+                                <asp:LinkButton class="footer-link mx-2" ID="LinkButton10" runat="server" OnClick="LinkButton10_Click">
+                                    Book Inventory
+                                </asp:LinkButton>
+                                <asp:LinkButton class="footer-link mx-2" ID="LinkButton3" runat="server" OnClick="LinkButton3_Click">
                                     Book Issuing
                                 </asp:LinkButton>
-                                <asp:LinkButton class="footer-link" ID="LinkButton4" runat="server" OnClick="LinkButton4_Click">
+                                <asp:LinkButton class="footer-link mx-2" ID="LinkButton4" runat="server" OnClick="LinkButton4_Click">
                                     Member Management
                                 </asp:LinkButton>
                             </p>

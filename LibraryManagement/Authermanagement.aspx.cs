@@ -15,11 +15,15 @@ namespace LibraryManagement
         string strdb = ConfigurationManager.ConnectionStrings["database"].ConnectionString;
         protected void Page_Load(object sender, EventArgs e)
         {
+            author.DataBind();
         }
 
         protected void GO_Click(object sender, EventArgs e)
         {
-
+            if (CheckAuthorExist())
+                GetAuthor();
+            else
+                Response.Write("<script>alert('Author does not Exist')</script>");
         }
 
         protected void add_Click(object sender, EventArgs e)
@@ -61,11 +65,9 @@ namespace LibraryManagement
                 sqlCommand.Parameters.AddWithValue("@author_name", TextBox2.Text.Trim());
 
                 sqlCommand.ExecuteNonQuery();
-                //author.DataBind();
+                author.DataBind();
                 connect.Close();
                 ClearForm();
-
-                Response.Write("<script>alert('New Author Created');</script>");
             }
             catch (Exception ex)
             {
@@ -87,11 +89,9 @@ namespace LibraryManagement
                 sqlCommand.Parameters.AddWithValue("@author_name", TextBox2.Text.Trim());
 
                 sqlCommand.ExecuteNonQuery();
-                //author.DataBind();
                 connection.Close();
+                author.DataBind();
                 ClearForm();
-
-                Response.Write("<script>alert('Author has been updated');</script>");
             }
             catch (Exception E)
             {
@@ -110,10 +110,8 @@ namespace LibraryManagement
                 SqlCommand sqlCommand = new SqlCommand("DELETE from author_table WHERE author_id = @author_id", connection);
                 sqlCommand.Parameters.AddWithValue("@author_id", TextBox1.Text.Trim());
                 sqlCommand.ExecuteNonQuery();
-                //author.DataBind();
+                author.DataBind();
                 ClearForm();
-
-                Response.Write("<script>alert('Author has been Delete');</script>");
             }
             catch (Exception E)
             {
@@ -123,7 +121,30 @@ namespace LibraryManagement
 
         void GetAuthor()
         {
+            try
+            {
+                SqlConnection connection = new SqlConnection(strdb);
+                if (connection.State == ConnectionState.Closed)
+                    connection.Open();
 
+                SqlCommand cmd = new SqlCommand("SELECT * FROM author_table WHERE author_id=@author_id", connection);
+                cmd.Parameters.AddWithValue("@author_id",TextBox1.Text.Trim());
+
+                SqlDataReader reader = cmd.ExecuteReader();
+
+                if (reader.HasRows)
+                {
+                    while (reader.Read())
+                    {
+                        TextBox2.Text = reader.GetValue(1).ToString();
+                    }
+                }
+                connection.Close();
+            }
+            catch (Exception E)
+            {
+                Response.Write("<script>alert('" + E.Message + "');</script>");
+            }
         }
 
         bool CheckAuthorExist()
