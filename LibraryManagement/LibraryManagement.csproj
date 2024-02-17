@@ -94,9 +94,12 @@
     <Content Include="Icons\Book_Logo.svg" />
     <Content Include="Icons\Book_Logo_pitch.svg" />
     <Content Include="Icons\Book_Logo_white.svg" />
+    <Content Include="Icons\Book_peach_borrw.svg" />
     <Content Include="Icons\Id.svg" />
     <Content Include="Icons\Leaf.svg" />
+    <Content Include="Icons\Leaf_peach_icon.svg" />
     <Content Include="Icons\New_Icon.svg" />
+    <Content Include="Icons\New_peach_icon.svg" />
     <Content Include="Icons\Publisher.svg" />
     <Content Include="Icons\Register.svg" />
     <Content Include="Icons\User.svg" />
@@ -2194,6 +2197,9 @@
     <Content Include="BookIssue.aspx" />
     <Content Include="membermanagement.aspx" />
     <Content Include="bookinventory.aspx" />
+    <Content Include="bookview.aspx" />
+    <Content Include="Terms.aspx" />
+    <Content Include="AboutUs.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Mas.Master.cs">
@@ -2273,6 +2279,27 @@
     </Compile>
     <Compile Include="bookinventory.aspx.designer.cs">
       <DependentUpon>bookinventory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bookview.aspx.cs">
+      <DependentUpon>bookview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bookview.aspx.designer.cs">
+      <DependentUpon>bookview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Terms.aspx.cs">
+      <DependentUpon>Terms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Terms.aspx.designer.cs">
+      <DependentUpon>Terms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AboutUs.aspx.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutUs.aspx.designer.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

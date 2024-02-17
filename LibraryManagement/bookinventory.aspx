@@ -1,28 +1,28 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Mas.Master" AutoEventWireup="true" CodeBehind="bookinventory.aspx.cs" Inherits="LibraryManagement.WebForm10" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <script>
-        $(document).ready(function () {
-            //let table = new DataTable('#table');
-            $('.table').prepend($("<thead></thead>").append($(this).find("tr:first"))).dataTable();
+<script>
+    $(document).ready(function () {
+        //let table = new DataTable('#table');
+        $('.table').prepend($("<thead></thead>").append($(this).find("tr:first"))).dataTable();
 
-            //$('#Delete').click(function () {
-            //    $('.box').each(function () {
-            //        $(this).val('');
-            //    });
-            //});
-        });
+        //$('#Delete').click(function () {
+        //    $('.box').each(function () {
+        //        $(this).val('');
+        //    });
+        //});
+    });
 
-        function readURL(input) {
-            if (input.files && input.files[0]) {
-                var reader = new FileReader();
+    function readURL(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
 
-                reader.onload = function (e) {
-                    $('#image_view').attr('src', e.target.result);
-                };
-                reader.readAsDataURL(input.files[0]);
-            }
+            reader.onload = function (e) {
+                $('#image_view').attr('src', e.target.result);
+            };
+            reader.readAsDataURL(input.files[0]);
         }
-    </script>
+    }
+</script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container-fluid">

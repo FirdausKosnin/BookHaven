@@ -120,5 +120,20 @@ namespace LibraryManagement
         {
             Response.Redirect("bookinventory.aspx");
         }
+
+        protected void PageViewBooks_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("bookview.aspx");
+        }
+
+        protected void PageTerms_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Terms.aspx");
+        }
+
+        protected void PageAboutUs_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("AboutUs.aspx");
+        }
     }
 }

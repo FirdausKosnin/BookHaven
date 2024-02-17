@@ -33,105 +33,118 @@
 </head>
 <body class="bg-grey">
     <form id="form1" runat="server">
-        <div id="page-container">
-            <nav class="navbar navbar-expand navbar-dark bg-dark-green">
-                <a class="navbar-brand" href="index.aspx">
-                    <img src="Icons/Book_Logo_white.svg" href="" width="70" hight="70" class="mx-3"/>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+        <nav class="navbar navbar-expand-lg bg-dark-green">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.aspx">
+                <img src="Icons/Book_Logo_white.svg" href="" width="70" hight="70" class="mx-3"/>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-                <div class="collapse navbar-collapse" id="navbarsExample03">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active nav-link-color" href="#">
-                                About Us
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active nav-link-color" href="#">
-                                Terms
-                            </a>
-                        </li>
-                        <li class="nav-item" >
-                            <a class="nav-link active nav-link-color" href="#">
-                                View Books
-                            </a>
-                        </li>
-                    </ul>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                    <ul class="navbar-nav">
-                        <li class="nav-item" >
-                            <asp:LinkButton class="nav-link active nav-link-color" ID="LinkButton5" runat="server" OnClick="LinkButton5_Click">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <asp:LinkButton class="nav-link active grey" runat="server" ID="PageAboutUs" OnClick="PageAboutUs_Click">
+                        <span class="grey">
+                            About Us
+                        </span>
+                    </asp:LinkButton>
+                </li>
+                <li class="nav-item">
+                    <asp:LinkButton class="nav-link active grey" runat="server" ID="PageTerms" OnClick="PageTerms_Click">
+                        <span class="grey">
+                            Terms
+                        </span>
+                    </asp:LinkButton>
+                </li>
+                <li class="nav-item">
+                    <asp:LinkButton class="nav-link active nav-link-color" runat="server" ID="PageViewBooks" OnClick="PageViewBooks_Click">
+                        <span class="grey">
+                            View Books
+                        </span>
+                    </asp:LinkButton>
+                </li>
+              </ul>
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <asp:LinkButton class="nav-link active nav-link-color" ID="LinkButton5" runat="server" OnClick="LinkButton5_Click">
+                            <span class="grey">
                                 User Login
-                            </asp:LinkButton>
-                        </li>
-                        <li class="nav-item" >
-                            <asp:LinkButton class="nav-link active nav-link-color" ID="LinkButton7" runat="server" OnClick="LinkButton7_Click">
+                            </span>
+                        </asp:LinkButton>
+                    </li>
+                    <li class="nav-item">
+                        <asp:LinkButton class="nav-link active nav-link-color" ID="LinkButton7" runat="server" OnClick="LinkButton7_Click">
+                            <span class="grey">
                                 Sign Up
-                            </asp:LinkButton>
-                        </li>
-                        <li class="nav-item" >
-                            <asp:LinkButton class="nav-link active nav-link-color" ID="LinkButton8" runat="server" OnClick="LinkButton8_Click">
+                            </span>
+                        </asp:LinkButton>
+                    </li>
+                    <li class="nav-item">
+                        <asp:LinkButton class="nav-link active nav-link-color" ID="LinkButton8" runat="server" OnClick="LinkButton8_Click">
+                            <span class="grey">
                                 Log Out
-                            </asp:LinkButton>
-                        </li>
-                        <li class="nav-item" >
-                            <asp:LinkButton class="nav-link active nav-link-color" ID="LinkButton9" runat="server" OnClick="LinkButton9_Click">
+                            </span>
+                        </asp:LinkButton>
+                    </li>
+                    <li class="nav-item">
+                        <asp:LinkButton class="nav-link active nav-link-color" ID="LinkButton9" runat="server" OnClick="LinkButton9_Click">
+                            <span class="grey">
                                 User
-                            </asp:LinkButton>
-                        </li>
-                    </ul>
-                </div>
-
-            </nav>
-            <div id="content-wrap my-3">
-                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                </asp:ContentPlaceHolder>
+                            </span>
+                        </asp:LinkButton>
+                    </li>
+                </ul>
             </div>
+          </div>
+        </nav>
 
-            <footer id="footer" class="bg-dark-green grey mt-3">
-                <div id="footer-upper" class="container-fluid">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-                            <p>
-                                <asp:LinkButton class="footer-link mx-2" ID="LinkButton6" runat="server" OnClick="LinkButton6_Click">
-                                    Admin Login
-                                </asp:LinkButton>
-                                <asp:LinkButton class="footer-link mx-2" ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">
-                                    Author Management
-                                </asp:LinkButton>
-                                <asp:LinkButton class="footer-link mx-2" ID="LinkButton2" runat="server" OnClick="LinkButton2_Click">
-                                    Publish Management
-                                </asp:LinkButton>
-                                <asp:LinkButton class="footer-link mx-2" ID="LinkButton10" runat="server" OnClick="LinkButton10_Click">
-                                    Book Inventory
-                                </asp:LinkButton>
-                                <asp:LinkButton class="footer-link mx-2" ID="LinkButton3" runat="server" OnClick="LinkButton3_Click">
-                                    Book Issuing
-                                </asp:LinkButton>
-                                <asp:LinkButton class="footer-link mx-2" ID="LinkButton4" runat="server" OnClick="LinkButton4_Click">
-                                    Member Management
-                                </asp:LinkButton>
-                            </p>
-                        </div>
-                    </div>
-                    &copy All right reserved.
-                    <a class="footer-link" href="#" target="_blank">
-                        Firdaus Kosnin
-                    </a>
-                </div>
-            </footer>
+        <div class="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
         </div>
 
+        <div class="bg-dark-green grey">
+            <div id="footer-upper" class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                        <p class="my-2">
+                            <asp:LinkButton class="footer-link mx-2" ID="LinkButton6" runat="server" OnClick="LinkButton6_Click">
+                                Admin Login
+                            </asp:LinkButton>
+                            <asp:LinkButton class="footer-link mx-2" ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">
+                                Author Management
+                            </asp:LinkButton>
+                            <asp:LinkButton class="footer-link mx-2" ID="LinkButton2" runat="server" OnClick="LinkButton2_Click">
+                                Publish Management
+                            </asp:LinkButton>
+                            <asp:LinkButton class="footer-link mx-2" ID="LinkButton10" runat="server" OnClick="LinkButton10_Click">
+                                Book Inventory
+                            </asp:LinkButton>
+                            <asp:LinkButton class="footer-link mx-2" ID="LinkButton3" runat="server" OnClick="LinkButton3_Click">
+                                Book Issuing
+                            </asp:LinkButton>
+                            <asp:LinkButton class="footer-link mx-2" ID="LinkButton4" runat="server" OnClick="LinkButton4_Click">
+                                Member Management
+                            </asp:LinkButton>
+                        </p>
+                    </div>
+                </div>
+                <div class="center-flex">
+                    &copy All right reserved. &nbsp;&nbsp; <a class="footer-link" href="#" target="_blank"> Firdaus Kosnin </a>
+                </div>
+            </div>
+        </div>
     </form>
 </body>
 
 <script>
-// Check if the page content height is less than the viewport height
-if (document.body.clientHeight < window.innerHeight) {
-    document.body.style.minHeight = '100vh';
-}
+ //Check if the page content height is less than the viewport height
+//if (document.body.clientHeight < window.innerHeight) {
+//    document.body.style.minHeight = '100vh';
+//}
 </script>
 </html>

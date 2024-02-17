@@ -6,32 +6,22 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <section>
-        <div class="banner">
+        <div class="banner pitch">
             <img src="Images/Library.jpg" class="banner-card" />
             <div class="banner-text dark-green">
-                <h1 class="raised-shadow title">
+                <h1 class="raised-shadow title pitch">
                     Book Heaven Library
                 </h1>
-                <p class="raised-shadow">
+                <p class="raised-shadow pitch">
                     Beyond Books, Beyond Borders: Where Ideas Take Flight!
                 </p>
             </div>
-            <div class="features-banner grey">
+            <div class="features-banner pitch">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <h2 class="text-center raised-shadow text-uppercase">
-                                Library Features
-                            </h2>
-                            <p class="text-center raised-shadow">
-                                Only in book heaven
-                            </p>
-                        </div>
-                    </div>
                     <div class="row">
                         <div class="col-md-4">
                             <div class="features-icon">
-                                <img width="150" src="Icons/New_Icon.svg"/>
+                                <img height="125" src="Icons/New_peach_icon.svg"/>
                             </div>
                             <h3 class="text-uppercase raised-shadow text-center">
                                 Up to Date
@@ -44,7 +34,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="features-icon">
-                                <img width="150" src="Icons/Book_Icon.svg"/>
+                                <img height="125" src="Icons/Book_peach_borrw.svg"/>
                             </div>
                             <h3 class="text-uppercase raised-shadow text-center">
                                 Free Brrow
@@ -57,7 +47,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="features-icon">
-                                <img width="150" src="Icons/Leaf.svg"/>
+                                <img height="125" src="Icons/Leaf_peach_icon.svg"/>
                             </div>
                             <h3 class="text-uppercase raised-shadow text-center">
                                 Nature Enviroment
@@ -75,9 +65,6 @@
     </section>
 
     <section class="">
-        <div class="">
-
-        </div>
         <div class="container">
             <div class="row">
                 <div class="col-12 my-4">
