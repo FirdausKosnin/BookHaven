@@ -15,6 +15,24 @@ namespace LibraryManagement
     {
 
         /// <summary>
+        /// IssueID control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox IssueID;
+
+        /// <summary>
+        /// GO_ID control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button GO_ID;
+
+        /// <summary>
         /// MemberID control.
         /// </summary>
         /// <remarks>
@@ -22,6 +40,15 @@ namespace LibraryManagement
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox MemberID;
+
+        /// <summary>
+        /// GO_Member control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button GO_Member;
 
         /// <summary>
         /// BookID control.
@@ -33,13 +60,13 @@ namespace LibraryManagement
         protected global::System.Web.UI.WebControls.TextBox BookID;
 
         /// <summary>
-        /// GO control.
+        /// GO_Book control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button GO;
+        protected global::System.Web.UI.WebControls.Button GO_Book;
 
         /// <summary>
         /// MemberName control.
@@ -96,12 +123,21 @@ namespace LibraryManagement
         protected global::System.Web.UI.WebControls.Button Return;
 
         /// <summary>
-        /// author control.
+        /// borrowBookSQL control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView author;
+        protected global::System.Web.UI.WebControls.SqlDataSource borrowBookSQL;
+
+        /// <summary>
+        /// BorrowBooks control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView BorrowBooks;
     }
 }

@@ -19,8 +19,8 @@ namespace LibraryManagement
                     LinkButton5.Visible = true; // User Login
                     LinkButton7.Visible = true; // Sign Up
 
-                    LinkButton9.Visible = false; // Log Out
-                    LinkButton8.Visible = false; // User Name
+                    LinkButton8.Visible = false; // Log Out
+                    LinkButton9.Visible = false; // User Name
 
                     LinkButton1.Visible = false; // Admin Author Management
                     LinkButton2.Visible = false; // Admin publish Management
@@ -35,8 +35,9 @@ namespace LibraryManagement
 
                     LinkButton9.Visible = true; // Log Out
                     LinkButton8.Visible = true; // User Name
-                    LinkButton9.Text = Session["username"].ToString();
+                    //LinkButton9.Text = Session["username"].ToString();
 
+                    LinkButton6.Visible = false;
                     LinkButton1.Visible = false; // Admin Author Management
                     LinkButton2.Visible = false; // Admin publish Management
                     LinkButton10.Visible = false; // Admin Book Inventory
@@ -48,9 +49,9 @@ namespace LibraryManagement
                     LinkButton5.Visible = false; // User Login
                     LinkButton7.Visible = false; // Sign Up
 
-                    LinkButton9.Visible = true; // Log Out
-                    LinkButton8.Visible = true; // User Name
-                    LinkButton9.Text = Session["username"].ToString();
+                    LinkButton8.Visible = true; // Log Out
+                    LinkButton9.Visible = false; // User Nmae
+                    //LinkButton9.Text = Session["username"].ToString();
 
                     LinkButton6.Visible = false; // Admin login
                     LinkButton1.Visible = true; // Admin Author Management

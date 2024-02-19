@@ -91,9 +91,9 @@
                         </asp:LinkButton>
                     </li>
                     <li class="nav-item">
-                        <asp:LinkButton class="nav-link active nav-link-color" ID="LinkButton9" runat="server" OnClick="LinkButton9_Click">
+                        <asp:LinkButton class="nav-link active grey" ID="LinkButton9" runat="server" OnClick="LinkButton9_Click">
                             <span class="grey">
-                                User
+                                Profile
                             </span>
                         </asp:LinkButton>
                     </li>
