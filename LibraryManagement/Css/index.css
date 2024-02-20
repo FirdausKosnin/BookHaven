@@ -1,13 +1,13 @@
 ﻿.banner {
     position: relative;
-    min-height: 50vh;
+    min-height: 95vh;
     overflow: hidden;
     display: flex;
     align-items: start;
 }
 
 .banner-card {
-    max-width: 60%;
+    max-width: 100%;
     height: auto;
     display: block;
 }

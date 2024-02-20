@@ -86,6 +86,7 @@
     <Content Include="Css\main.css" />
     <Content Include="Css\index.css" />
     <Content Include="Css\form.css" />
+    <Content Include="Css\AboutUs.css" />
     <Content Include="datatables\jquery.dataTables.min.css" />
     <Content Include="datatables\jquery.dataTables.min.js" />
     <Content Include="Icons\Author.svg" />
@@ -95,6 +96,7 @@
     <Content Include="Icons\Book_Logo_pitch.svg" />
     <Content Include="Icons\Book_Logo_white.svg" />
     <Content Include="Icons\Book_peach_borrw.svg" />
+    <Content Include="Icons\Discussion.svg" />
     <Content Include="Icons\Id.svg" />
     <Content Include="Icons\Leaf.svg" />
     <Content Include="Icons\Leaf_peach_icon.svg" />
@@ -102,8 +104,10 @@
     <Content Include="Icons\New_peach_icon.svg" />
     <Content Include="Icons\Publisher.svg" />
     <Content Include="Icons\Register.svg" />
+    <Content Include="Icons\Silence.svg" />
     <Content Include="Icons\User.svg" />
     <Content Include="Icons\Wait_for_approvel.svg" />
+    <Content Include="Images\Lab1.jpg" />
     <Content Include="Images\Library.jpg" />
     <Content Include="JQuerry\jquery-3.7.1.js" />
     <Content Include="JQuerry\jquery-3.7.1.min.js" />

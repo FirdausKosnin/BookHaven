@@ -90,9 +90,7 @@
                         </div>
 
                         <div class="d-grid gap-2">
-                            <a href="singup.aspx" class="btn btn-info d-block mt-4">
-                                Update
-                            </a>
+                            <asp:Button runat="server" type="button" CssClass="btn btn-info d-block mt-4" Text="Update"/>
                         </div>
                     </div>
                 </div>
