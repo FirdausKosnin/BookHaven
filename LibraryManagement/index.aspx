@@ -39,7 +39,7 @@
                             <h3 class="text-uppercase raised-shadow text-center">
                                 Free Brrow
                             </h3>
-                            <p  class="text-center">
+                            <p class="text-center">
                                 Enjoy the freedom to explore and learn without any financial barriers. 
                                 With our free borrowing policy, you can take home up to three books for a 
                                 generous two-week period, allowing ample time to delve deep into your chosen subjects.

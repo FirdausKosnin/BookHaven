@@ -4,7 +4,6 @@
     $(document).ready(function () {
         //let table = new DataTable('#table');
         $('.table').prepend($("<thead></thead>").append($(this).find("tr:first"))).dataTable();
-
         //$('#Delete').click(function () {
         //    $('.box').each(function () {
         //        $(this).val('');
