@@ -6,7 +6,7 @@ BookHeaven is a personal project aimed at learning Database management with C# A
 
 ## Features
 
-### Main Page (Visible to Everyone)
+### Main Page
 
 - **Book Search:** Users can search and browse available books in the library.
 - **Library Details:** Information about the library, including location and contact details.
