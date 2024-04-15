@@ -2,13 +2,15 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="Css/index.css" rel="stylesheet" />
+    <link href="Css/AboutUs.css" rel="stylesheet" />
 </asp:Content>
+
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <section>
-        <div class="banner pitch">
-            <img src="Images/Library.jpg" class="banner-card" />
-            <div class="banner-text dark-green">
+        <div class="banner-card">
+            <img src="Images/Lib.jpg" class="img-fluid"/>
+            <div class="dark-green">
                 <h1 class="raised-shadow title pitch">
                     Book Heaven Library
                 </h1>
@@ -16,52 +18,56 @@
                     Beyond Books, Beyond Borders: Where Ideas Take Flight!
                 </p>
             </div>
-            <div class="features-banner pitch">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="features-icon">
-                                <img height="125" src="Icons/New_peach_icon.svg"/>
-                            </div>
-                            <h3 class="text-uppercase raised-shadow text-center">
-                                Up to Date
-                            </h3>
-                            <p class="text-center">
-                                Stay current with the latest trends, knowledge, and discoveries across various fields. 
-                                Our library curates a dynamic collection of up-to-date books, ensuring you have access 
-                                to the most recent information on diverse topics.
-                            </p>
+        </div>
+
+        <div class="container-fluid bg-pitch">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="features-icon">
+                            <img height="125" src="Icons/New_grey.svg"/>
                         </div>
-                        <div class="col-md-4">
-                            <div class="features-icon">
-                                <img height="125" src="Icons/Book_peach_borrw.svg"/>
-                            </div>
-                            <h3 class="text-uppercase raised-shadow text-center">
-                                Free Brrow
-                            </h3>
-                            <p class="text-center">
-                                Enjoy the freedom to explore and learn without any financial barriers. 
-                                With our free borrowing policy, you can take home up to three books for a 
-                                generous two-week period, allowing ample time to delve deep into your chosen subjects.
-                            </p>
+                        <h3 class="text-uppercase raised-shadow text-center">
+                            Up to Date
+                        </h3>
+                        <p class="text-center">
+                            Stay current with the latest trends, knowledge, and discoveries across various fields. 
+                            Our library curates a dynamic collection of up-to-date books, ensuring you have access 
+                            to the most recent information on diverse topics.
+                        </p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="features-icon">
+                            <img height="125" src="Icons/Book_peach_borrw.svg"/>
                         </div>
-                        <div class="col-md-4">
-                            <div class="features-icon">
-                                <img height="125" src="Icons/Leaf_peach_icon.svg"/>
-                            </div>
-                            <h3 class="text-uppercase raised-shadow text-center">
-                                Nature Enviroment
-                            </h3>
-                            <p  class="text-center">
-                                 Immerse yourself in the tranquility of our library's garden section, where you can 
-                                escape into the serenity of nature while exploring our extensive collection of books 
-                                on environmental topics.
-                            </p>
+                        <h3 class="text-uppercase raised-shadow text-center">
+                            Free Brrow
+                        </h3>
+                        <p class="text-center">
+                            Enjoy the freedom to explore and learn without any financial barriers. 
+                            With our free borrowing policy, you can take home up to three books for a 
+                            generous two-week period, allowing ample time to delve deep into your chosen subjects.
+                        </p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="features-icon">
+                            <img height="125" src="Icons/leaf_grey.svg"/>
                         </div>
+                        <h3 class="text-uppercase raised-shadow text-center">
+                            Nature Enviroment
+                        </h3>
+                        <p  class="text-center">
+                                Immerse yourself in the tranquility of our library's garden section, where you can 
+                            escape into the serenity of nature while exploring our extensive collection of books 
+                            on environmental topics.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
+
     </section>
 
     <section class="">

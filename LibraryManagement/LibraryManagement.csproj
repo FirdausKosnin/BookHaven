@@ -99,7 +99,9 @@
     <Content Include="Icons\Discussion.svg" />
     <Content Include="Icons\Id.svg" />
     <Content Include="Icons\Leaf.svg" />
+    <Content Include="Icons\leaf_grey.svg" />
     <Content Include="Icons\Leaf_peach_icon.svg" />
+    <Content Include="Icons\New_grey.svg" />
     <Content Include="Icons\New_Icon.svg" />
     <Content Include="Icons\New_peach_icon.svg" />
     <Content Include="Icons\Publisher.svg" />
@@ -108,6 +110,7 @@
     <Content Include="Icons\User.svg" />
     <Content Include="Icons\Wait_for_approvel.svg" />
     <Content Include="Images\Lab1.jpg" />
+    <Content Include="Images\Lib.jpg" />
     <Content Include="Images\Library.jpg" />
     <Content Include="JQuerry\jquery-3.7.1.js" />
     <Content Include="JQuerry\jquery-3.7.1.min.js" />
@@ -2202,7 +2205,6 @@
     <Content Include="membermanagement.aspx" />
     <Content Include="bookinventory.aspx" />
     <Content Include="bookview.aspx" />
-    <Content Include="Terms.aspx" />
     <Content Include="AboutUs.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -2290,13 +2292,6 @@
     </Compile>
     <Compile Include="bookview.aspx.designer.cs">
       <DependentUpon>bookview.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Terms.aspx.cs">
-      <DependentUpon>Terms.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Terms.aspx.designer.cs">
-      <DependentUpon>Terms.aspx</DependentUpon>
     </Compile>
     <Compile Include="AboutUs.aspx.cs">
       <DependentUpon>AboutUs.aspx</DependentUpon>
