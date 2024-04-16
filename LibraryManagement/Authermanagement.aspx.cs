@@ -15,7 +15,7 @@ namespace LibraryManagement
         string strdb = ConfigurationManager.ConnectionStrings["database"].ConnectionString;
         protected void Page_Load(object sender, EventArgs e)
         {
-            author.DataBind();
+            //author.DataBind();
         }
 
         protected void GO_Click(object sender, EventArgs e)

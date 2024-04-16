@@ -26,13 +26,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
     <%-- CSS --%>
-    <link href="Css/main.css" rel="stylesheet" />
+    <link href="Css/style.css" rel="stylesheet" />
+    <link href="Css/footer.css" rel="stylesheet" />
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body class="bg-grey">
-    <form id="form1" runat="server">
+    <form id="form1" class="wrapper" runat="server">
         <nav class="navbar navbar-expand-lg bg-dark-green">
           <div class="container-fluid">
             <a class="navbar-brand" href="index.aspx">
@@ -100,8 +101,8 @@
             </asp:ContentPlaceHolder>
         </div>
 
-        <div class="bg-dark-green grey">
-            <div id="footer-upper" class="container-fluid">
+        <div class="bg-dark-green grey footer">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 text-center">
                         <p class="my-2">
@@ -126,18 +127,17 @@
                         </p>
                     </div>
                 </div>
-                <div class="center-flex">
-                    &copy All right reserved. &nbsp;&nbsp; <a class="footer-link" href="#" target="_blank"> Firdaus Kosnin </a>
+                <div class="center-grid d-inline-block">
+                    &copy All right reserved. &nbsp;&nbsp; <a class="footer-link" href="https://ausportfolio.netlify.app/" target="_blank"> Firdaus Kosnin </a>
                 </div>
             </div>
         </div>
     </form>
+  <!-- Bootstrap JS scripts if needed -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 <script>
  //Check if the page content height is less than the viewport height
-//if (document.body.clientHeight < window.innerHeight) {
-//    document.body.style.minHeight = '100vh';
-//}
 </script>
 </html>

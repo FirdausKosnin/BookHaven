@@ -12,25 +12,31 @@
                     <h2 class="text-center my-4">
                        Discover Your Literary Paradise at Book Heaven Library: Where Every Page Holds a New Adventure!
                     </h2>
-                    <p class="text-center my-2">
-                        Welcome to Book Heaven Library, where every page holds a new adventure and every shelf whispers tales of wonder!
-                        At Book Heaven, we're not just a bookstore and library; we're a sanctuary for book lovers, 
-                        a community hub for literary enthusiasts of all ages.
-                    </p>
-                    <p  class="text-center my-2">
-                        Imagine stepping into a world where the possibilities are endless, where you can lose yourself in the captivating 
-                        stories of your favorite authors or discover new voices that ignite your imagination. Whether you're seeking a 
-                        thrilling mystery to unravel, a heartwarming romance to swoon over, or a thought-provoking classic to ponder, 
-                        Book Heaven has something for every reader's soul.
-                    </p>
-                    <asp:Button type="button" class="btn btn-info my-3" Text="EXPLORE" runat="server" ID="HomeButton" OnClick="HomeButton_Click"/>
                 </div>
+
+
+            </div>
+            <div class="col-12">
+                <p class="text-center my-2">
+                    Welcome to Book Heaven Library, where every page holds a new adventure and every shelf whispers tales of wonder!
+                    At Book Heaven, we're not just a bookstore and library; we're a sanctuary for book lovers, 
+                    a community hub for literary enthusiasts of all ages.
+                </p>
+                <p  class="text-center my-2">
+                    Imagine stepping into a world where the possibilities are endless, where you can lose yourself in the captivating 
+                    stories of your favorite authors or discover new voices that ignite your imagination. Whether you're seeking a 
+                    thrilling mystery to unravel, a heartwarming romance to swoon over, or a thought-provoking classic to ponder, 
+                    Book Heaven has something for every reader's soul.
+                </p>
+            </div>
+            <div class="col-12 center-grid">
+                <asp:Button type="button" class="btn btn-info my-3" Text="EXPLORE" runat="server" ID="HomeButton" OnClick="HomeButton_Click"/>
             </div>
         </div>
 
         <div class="row my-2">
 
-            <div class="col-6">
+            <div class="col-md-6 my-2">
                 <div class="card">
                     <div class="card-body">
                         <h3 class="center-grid my-2">
@@ -46,7 +52,7 @@
                 </div>
             </div>
 
-            <div class="col-6">
+            <div class="col-md-6 my-2">
                 <div class="card">
                     <div class="card-body">
                         <h3 class="center-grid my-2">
@@ -78,39 +84,39 @@
                         <div class="container-fluid">
                             <div class="row">
 
-                                <div class="col-4">
+                                <div class="col-lg-4">
                                     <div class="center-grid">
                                         <img src="Icons/Silence.svg" height="200" class="mb-3"/>
-                                        <h4>
-                                            Silent Section
-                                        </h4>
                                     </div>
+                                    <h4 class="center-grid">
+                                        Silent Section
+                                    </h4>
                                     <p class="text-center">
                                         Dive into a realm of uninterrupted focus and captivating tales within our Silent Section—a sanctuary 
                                         where the only sounds are the gentle rustle of pages turning and the whisper of imagination.
                                     </p>
                                 </div>
 
-                                <div class="col-4">
+                                <div class="col-lg-4">
                                     <div class="center-grid">
                                         <img src="Icons/Discussion.svg" height="200" class="mb-3"/>
-                                        <h4>
-                                            Discussion Space
-                                        </h4>
                                     </div>
+                                    <h4 class="center-grid">
+                                        Discussion Space
+                                    </h4>
                                     <p class="text-center">
                                         Spark creativity and collaboration in our dynamic Discussion Space—a hub where ideas flourish,
                                         connections thrive, and minds converge to shape the future.
                                     </p>
                                 </div>
 
-                                <div class="col-4">
+                                <div class="col-lg-4">
                                     <div class="center-grid">
                                         <img src="Icons/Leaf_peach_icon.svg" height="200" class="mb-3"/>
-                                        <h4>
-                                            Garden Section
-                                        </h4>
                                     </div>
+                                    <h4 class="text-center">
+                                        Garden Section
+                                    </h4>
                                     <p class="text-center">
                                         Immerse yourself in the beauty of nature as you explore our Garden Section—a tranquil retreat where the scent of flowers inspires, 
                                         and the embrace of greenery rejuvenates, creating the perfect backdrop for literary escapades.

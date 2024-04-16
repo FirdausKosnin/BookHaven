@@ -10,14 +10,14 @@
     <section>
         <div class="banner-card">
             <img src="Images/Lib.jpg" class="img-fluid"/>
-            <div class="dark-green">
+<%--            <div class="dark-green">
                 <h1 class="raised-shadow title pitch">
                     Book Heaven Library
                 </h1>
                 <p class="raised-shadow pitch">
                     Beyond Books, Beyond Borders: Where Ideas Take Flight!
                 </p>
-            </div>
+            </div>--%>
         </div>
 
         <div class="container-fluid bg-pitch">

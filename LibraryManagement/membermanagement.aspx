@@ -142,7 +142,7 @@
                             </span>
                         </div>
                         <hr />
-                        <asp:SqlDataSource ID="MemberSource" runat="server" ConnectionString="<%$ ConnectionStrings:ElibraryDBConnectionString4 %>" SelectCommand="SELECT [full_name], [date_of_birth], [contact_number], [email], [member_id], [account_status], [state] FROM [members_table]">
+                        <asp:SqlDataSource ID="MemberSource" runat="server" ConnectionString="<%$ ConnectionStrings:ElibraryDBConnectionString %>" SelectCommand="SELECT [full_name], [date_of_birth], [contact_number], [email], [member_id], [account_status], [state] FROM [members_table]">
                         </asp:SqlDataSource>
                         <div>
                             <asp:GridView class="table" ID="MemberList" runat="server" AutoGenerateColumns="False" DataKeyNames="member_id" DataSourceID="MemberSource">

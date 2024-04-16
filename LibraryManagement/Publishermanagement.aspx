@@ -59,13 +59,13 @@
                     </h4>
                 </div>
                 <hr />
-                <asp:SqlDataSource ID="SQLdata" runat="server" ConnectionString="<%$ ConnectionStrings:ElibraryDBConnectionString4 %>" SelectCommand="SELECT * FROM [publisher_table]">
+                <asp:SqlDataSource ID="SQLdata" runat="server" ConnectionString="<%$ ConnectionStrings:ElibraryDBConnectionString %>" SelectCommand="SELECT * FROM [publisher_table]">
                 </asp:SqlDataSource>
                 <div class="row">
                     <div class="col-md-12 my-2">
-                        <asp:GridView class="table" ID="Publisher" runat="server" AutoGenerateColumns="False" DataSourceID="SQLdata">
+                        <asp:GridView class="table" ID="Publisher" runat="server" AutoGenerateColumns="False" DataSourceID="SQLdata" DataKeyNames="publisher_id">
                             <Columns>
-                                <asp:BoundField DataField="publisher_id" HeaderText="publisher_id" SortExpression="publisher_id" />
+                                <asp:BoundField DataField="publisher_id" HeaderText="publisher_id" SortExpression="publisher_id" ReadOnly="True" />
                                 <asp:BoundField DataField="publisher_name" HeaderText="publisher_name" SortExpression="publisher_name" />
                             </Columns>
                         </asp:GridView>

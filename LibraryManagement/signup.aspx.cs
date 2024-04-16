@@ -60,7 +60,8 @@ namespace LibraryManagement
                 if (connect.State == System.Data.ConnectionState.Closed)
                     connect.Open();
 
-                SqlCommand cmd = new SqlCommand("INSERT INTO members_table (full_name,date_of_birth,contact_number,email,full_address,state,city,pincode,member_id,password,account_status) Values (@full_name,@date_of_birth,@contact_number,@email,@address,@state,@city,@pincode,@member_id,@password,@account_status)", connect);
+                SqlCommand cmd = new SqlCommand("INSERT INTO members_table (full_name,date_of_birth,contact_number,email,full_address,state,city,pincode,member_id,password,account_status) " +
+                    "Values (@full_name,@date_of_birth,@contact_number,@email,@address,@state,@city,@pincode,@member_id,@password,@account_status)", connect);
 
                 cmd.Parameters.AddWithValue("@full_name", TextBox1.Text.Trim());
                 cmd.Parameters.AddWithValue("@date_of_birth", TextBox2.Text.Trim());

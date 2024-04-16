@@ -1,0 +1,12 @@
+﻿.footer {
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin-bottom: 0px;
+}

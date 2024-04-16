@@ -202,7 +202,7 @@
                     </h4>
                 </div>
                 <hr />
-                <asp:SqlDataSource ID="BookDataSource" runat="server" ConnectionString="<%$ ConnectionStrings:ElibraryDBConnectionString4 %>" SelectCommand="SELECT * FROM [book_table]">
+                <asp:SqlDataSource ID="BookDataSource" runat="server" ConnectionString="<%$ ConnectionStrings:ElibraryDBConnectionString %>" SelectCommand="SELECT * FROM [book_table]">
                 </asp:SqlDataSource>
                 <div class="row">
                     <div class="col">

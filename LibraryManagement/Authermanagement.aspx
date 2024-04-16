@@ -14,7 +14,7 @@
         <div class="row">
             <div class="col-md-4 my-4">
                 <div class="center-grid">
-                    <img src="Icons/Author.svg" width="150" class="my-2"/>
+                    <img src="Icons/Author.svg" width="75" class="my-2 mx-4"/>
                     <h4 class="d-block my-1">
                         Author Details
                     </h4>
@@ -66,7 +66,7 @@
                     </h4>
                 </div>
                 <hr />
-                <asp:SqlDataSource ID="SQLDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ElibraryDBConnectionString3 %>" ProviderName="<%$ ConnectionStrings:ElibraryDBConnectionString3.ProviderName %>" SelectCommand="SELECT * FROM [author_table]">
+                <asp:SqlDataSource ID="SQLDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ElibraryDBConnectionString %>" ProviderName="<%$ ConnectionStrings:ElibraryDBConnectionString.ProviderName %>" SelectCommand="SELECT * FROM [author_table]">
                 </asp:SqlDataSource>
                 <div class="row">
                     <div class="col my-2">
